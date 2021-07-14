@@ -51,7 +51,7 @@ function parabola() {
         document.getElementById("Heading").innerHTML = "Parabola ANSWER";
         document.getElementById("eq1").innerHTML = `${sxx}a+${sx}b+${Ax.length}c=${sy}------eq(1)`;
         document.getElementById("eq2").innerHTML = `${sx3}a+${sxx}b+${sx}c=${sxy}---------eq(2)`;
-        document.getElementById("eq3").innerHTML = `${sx4}a+${sx3}b+${sxx}c=${sxxy}---------eq(2)`;
+        document.getElementById("eq3").innerHTML = `${sx4}a+${sx3}b+${sxx}c=${sxxy}---------eq(3)`;
 
     }
     else{
