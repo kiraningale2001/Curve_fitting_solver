@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve fitting</title>
+    <script src="solver.js"></script>
+    <link rel="stylesheet" href="c.css">
+
+
+</head>
+<body>
+    <div class="que">
+        <input placeholder="x" id="x" type="text" required>
+        <input placeholder="y" id="y" type="text" required><br>
+        <input onclick="Straightline()" value="Straight line" type="submit">
+        <input onclick="parabola()" value="parabola" type="submit"><br>
+        
+    </div >
+
+    <div id="ans">
+        <h1 id="Heading"></h1>
+        <p id="eq1"></p>
+        <p id="eq2"></p>
+        <p id="eq3"></p>
+    </div>
+
+
+</body>
+</html>
